@@ -26,7 +26,7 @@ function interpolateIncName(context, localIdentName, localName, options = { hash
   if (/^[0-9].*$/.test(id)) {
     return interpolateIncName(context, localIdentName, localName, options);
   }
-  clasNames[className] = options.hashPrefix + '_' + id;
+  clasNames[className] = options.hashPrefix + id;
   return clasNames[className];
 }
 
