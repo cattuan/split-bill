@@ -16,6 +16,7 @@
     "publish:git": "lerna publish from-git",
     "publish:npm": "lerna publish from-package",
     "publish:canary": "lerna publish --canary",
+    "publish": "lerna publish",
     "test": "lerna run test",
     "clean": "lerna clean"
   },

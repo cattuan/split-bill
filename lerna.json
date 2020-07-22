@@ -8,6 +8,9 @@
   "command": {
     "version": {
       "message": "chore(version): bump"
+    },
+    "publish": {
+      "message": "chore(publish): release"
     }
   },
   "registry": "http://localhost:4873/"
