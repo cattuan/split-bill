@@ -1,5 +1,5 @@
 .app {
-  text-align: center;
+  text-align: center;  
 }
 
 .logo {
@@ -9,7 +9,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .logo {
-    animation: spin 2.5s infinite linear;
+    :global {
+      animation: spin 2.5s infinite linear;
+    }
   }
 }
 
