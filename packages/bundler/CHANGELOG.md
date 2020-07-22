@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.2.0...@zpi/bundler@0.2.1) (2020-07-22)
+
+
+### Bug Fixes
+
+* remove lodash (_) of class name ([c00a486](https://github.com/cattuan/split-bill/commit/c00a486ec49915f50c2177d1af6ed75d088129d5))
+
+
+
+
+
+## [0.2.1-alpha.0](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.2.0...@zpi/bundler@0.2.1-alpha.0) (2020-07-22)
+
+
+### Bug Fixes
+
+* remove lodash (_) of class name ([c00a486](https://github.com/cattuan/split-bill/commit/c00a486ec49915f50c2177d1af6ed75d088129d5))
+
+
+
+
+
 # 0.2.0 (2020-07-22)
 
 

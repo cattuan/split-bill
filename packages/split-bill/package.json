@@ -1,7 +1,7 @@
 {
   "name": "create-react-script",
   "homepage": "http://localhost:3000",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -12,7 +12,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@zpi/bundler": "^0.2.0",
+    "@zpi/bundler": "^0.2.1",
     "node-sass": "^4.14.1"
   },
   "scripts": {
