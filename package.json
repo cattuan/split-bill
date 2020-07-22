@@ -1,34 +1,38 @@
 {
-  "name": "create-react-script",
-  "version": "0.1.0",
+  "name": "create-app-tool",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "build": "lerna run lint && lerna run build",
+    "version:alpha": "lerna version --conventional-commits --conventional-prerelease --preid alpha -m 'chore(release): alpha'",
+    "version:beta": "lerna version --conventional-commits --conventional-prerelease --preid beta -m 'chore(release): beta'",
+    "version:rc": "lerna version --conventional-commits --conventional-prerelease --preid rc -m 'chore(release): release candidate'",
+    "version": "lerna version --conventional-commits --conventional-graduate",
+    "publish:git": "lerna publish from-git",
+    "publish:npm": "lerna publish from-package",
+    "publish:canary": "lerna publish --canary",
+    "test": "lerna run test",
+    "clean": "lerna clean"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
