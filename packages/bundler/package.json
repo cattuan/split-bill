@@ -1,6 +1,6 @@
 {
   "name": "@zpi/bundler",
-  "version": "0.2.1",
+  "version": "0.4.0",
   "description": "Configuration and scripts for react bundler.",
   "engines": {
     "node": ">=8.10"
@@ -96,5 +96,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "84167c7d069014d9d3efa9d3dcb498594de67c59"
 }
