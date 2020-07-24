@@ -1297,7 +1297,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "Button", function() { return /* reexport */ src_Button; });
 
-// EXTERNAL MODULE: /Users/lap13447/Desktop/Workspace/ReactJS/create-react-script/node_modules/react/index.js
+// EXTERNAL MODULE: /Users/lap13447/Desktop/Workspace/ReactJS/micro-frontends/node_modules/react/index.js
 var react = __webpack_require__(0);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
