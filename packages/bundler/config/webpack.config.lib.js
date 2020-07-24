@@ -50,7 +50,13 @@ module.exports = function () {
   // common function to get style loaders
   const getStyleLoaders = (cssOptions, preProcessor) => {
     const loaders = [
-      'style-loader',
+      {
+        loader: MiniCssExtractPlugin.loader,
+        options: {
+          esModule: true,
+          sourceMap: shouldUseSourceMap,
+        },
+      },
       {
         loader: require.resolve('css-loader'),
         options: cssOptions,
@@ -366,10 +372,7 @@ module.exports = function () {
             },
             // "postcss" loader applies autoprefixer to our CSS.
             // "css" loader resolves paths in CSS and adds assets as dependencies.
-            // "style" loader turns CSS into JS modules that inject <style> tags.
-            // In production, we use MiniCSSExtractPlugin to extract that CSS
-            // to a file, but in development "style" loader enables hot editing
-            // of CSS.
+            // "style" loader turns CSS into JS modules that inject <style> tags.            
             // By default we support CSS Modules with the extension .module.css
             {
               test: cssRegex,
@@ -458,12 +461,9 @@ module.exports = function () {
       // This gives some necessary context to module not found errors, such as
       // the requesting resource.
       new ModuleNotFoundPlugin(paths.appPath),
-      // Makes some environment variables available to the JS code, for example:
-      // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
-      // It is absolutely essential that NODE_ENV is set to production
-      // during a production build.
-      // Otherwise React will be compiled in the very slow development mode.
-      // new webpack.DefinePlugin(env.stringified),
+      // In production, we use MiniCSSExtractPlugin to extract that CSS
+      // to a file, but in development "style" loader enables hot editing
+      // of CSS.
       new MiniCssExtractPlugin({
         // Options similar to the same options in webpackOptions.output
         // both options are optional
