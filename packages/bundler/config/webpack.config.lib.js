@@ -519,10 +519,19 @@ module.exports = function () {
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter
     performance: false,
-    // externals: {
-    //   'react': 'React',
-    //   'react-dom': 'ReactDOM',
-    //   'babel-loader': 'BabelLoader'
-    // },
+    externals: {
+      react: {
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react'
+      },
+      'react-dom': {
+        root: 'ReactDOM',
+        commonjs2: 'react-dom',
+        commonjs: 'react-dom',
+        amd: 'react-dom'
+      }
+    },
   };
 };
