@@ -1,9 +1,18 @@
 .container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   height: 100px;
-  width: 200px;
-  background-color: #3b3b3b;
+  width: 100vw;
+  background-color: rgba(59, 59, 59, .9);
   color: #fff;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 100px;
   text-align: center;
+}
+
+.img {
+  height: 22px;
+  width: 22px;
+  margin: 0 6px;
 }
