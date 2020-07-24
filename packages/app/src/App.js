@@ -19,7 +19,7 @@ function App() {
         </p>
           <Button
             onClick={() => {
-              window.location.href = "https://reactjs.org";
+              // window.location.href = "https://reactjs.org";
             }}
           >
             Learn React
