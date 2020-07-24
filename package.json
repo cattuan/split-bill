@@ -15,7 +15,7 @@
     "version": "lerna version --conventional-commits --conventional-graduate",
     "publish:git": "lerna publish from-git",
     "publish:npm": "lerna publish from-package",
-    "publish:alpha": "lerna publish --canary --conventional-commits --conventional-prerelease",
+    "publish:alpha": "lerna publish --canary --preid alpha --conventional-commits --conventional-prerelease",
     "publish:beta": "lerna publish --canary --preid beta --conventional-commits --conventional-prerelease",
     "publish": "lerna publish --conventional-commits --conventional-graduate",
     "test": "lerna run test",
