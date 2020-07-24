@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0-alpha.1](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.3.0-alpha.0...@zpi/bundler@0.3.0-alpha.1) (2020-07-24)
+
+
+### Bug Fixes
+
+* config webpack minimize lib ([e699f42](https://github.com/cattuan/split-bill/commit/e699f42cc4465542fe70649a8862fc9d1b1f168b))
+
+
+
+
+
 # [0.3.0-alpha.0](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.4.1-alpha.0...@zpi/bundler@0.3.0-alpha.0) (2020-07-24)
 
 
