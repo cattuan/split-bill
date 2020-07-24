@@ -147,7 +147,7 @@ module.exports = function () {
       globalObject: 'this'
     },
     optimization: {
-      minimize: false,
+      minimize: true,
       minimizer: [
         // This is only used in production mode
         new TerserPlugin({
