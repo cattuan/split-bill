@@ -1,7 +1,7 @@
 {
   "name": "@zpi/app",
   "homepage": "http://localhost:3000",
-  "version": "0.2.2-alpha.1",
+  "version": "0.2.2-alpha.2",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -13,7 +13,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@zpi/bundler": "^0.3.0-alpha.1",
-    "@zpi/button": "^0.2.0-alpha.1",
+    "@zpi/button": "^0.2.0-alpha.2",
     "node-sass": "^4.14.1"
   },
   "scripts": {

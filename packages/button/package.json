@@ -1,7 +1,7 @@
 {
   "name": "@zpi/button",
   "homepage": "http://localhost:3000",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
