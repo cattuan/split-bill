@@ -1,0 +1,2 @@
+(this.webpackJsonp_zpi_button=this.webpackJsonp_zpi_button||[]).push([[2],{7:function(t,e,n){t.exports=n.p+"static/media/more.1dc3134b.svg"},8:function(t,e,n){"use strict";n.r(e);var a=n(0),s=n.n(a),c=n(7),i=n.n(c),o="btnc",r="btnd";e.default=function(){return s.a.createElement("div",{className:o},"LazyComponent",s.a.createElement("img",{className:r,src:i.a,alt:"more"}))}}}]);
+//# sourceMappingURL=2.ba7045af.chunk.js.map

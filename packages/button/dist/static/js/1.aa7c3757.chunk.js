@@ -1,0 +1,2 @@
+(this.webpackJsonp_zpi_button=this.webpackJsonp_zpi_button||[]).push([[1],{5:function(t,n,e){"use strict";e.r(n);var a=e(0),i=e.n(a),c="btna",s="btnb",l=e(6),r=e.n(l),u=i.a.lazy((function(){return e.e(2).then(e.bind(null,8))}));n.default=function(t){var n=t.children,e=t.onClick;return i.a.createElement("div",{className:c,onClick:e},i.a.createElement("img",{className:s,src:r.a,height:"22px",width:"22px"}),n||"Button",i.a.createElement(u,null))}},6:function(t,n,e){t.exports=e.p+"static/media/info.c9051382.svg"}}]);
+//# sourceMappingURL=1.aa7c3757.chunk.js.map
