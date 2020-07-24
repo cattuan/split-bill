@@ -1,10 +1,9 @@
 {
   "name": "@zpi/button",
   "homepage": "http://localhost:3000",
-  "version": "0.1.0",
+  "version": "0.2.0-alpha.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "dependencies": {},
   "peerDependencies": {
     "classnames": "^2.2.6",
     "react": "^16.13.1",
@@ -14,7 +13,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@zpi/bundler": "^0.2.1",
+    "@zpi/bundler": "^0.3.0-alpha.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

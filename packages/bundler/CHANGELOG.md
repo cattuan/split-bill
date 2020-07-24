@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0-alpha.0](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.4.1-alpha.0...@zpi/bundler@0.3.0-alpha.0) (2020-07-24)
+
+
+### Features
+
+* config webpack for build lib ([d924c74](https://github.com/cattuan/split-bill/commit/d924c741371b2af1d23dce5bf644c341d9da4962))
+
+
+
+
+
 ## [0.4.1-alpha.0](https://github.com/cattuan/split-bill/compare/@zpi/bundler@0.4.0...@zpi/bundler@0.4.1-alpha.0) (2020-07-22)
 
 

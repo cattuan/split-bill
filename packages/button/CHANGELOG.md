@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0-alpha.0 (2020-07-24)
+
+
+### Features
+
+* create button component ([ec5d546](https://github.com/cattuan/split-bill/commit/ec5d546d1f83f4de086a55d2b76ba144e0cf0f98))
+
+
+
+
+
 ## [0.2.1](https://github.com/cattuan/split-bill/compare/create-react-script@0.2.0...create-react-script@0.2.1) (2020-07-22)
 
 **Note:** Version bump only for package create-react-script
